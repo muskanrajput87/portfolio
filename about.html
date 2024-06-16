@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/96b2b5b768.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!----------------header------------------>
+    <div id="Header">
+      <div class="container">
+        <nav>
+          <h1><span>P</span>ortfolio.</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-----------------about ---------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img src="/images/user.png" /> -->
+            <img src="Man.avif" />
+            <!-- 
+            <img
+              src="https://img.freepik.com/premium-photo/man-hoodie-is-sitting-dark-room-with-laptop_431161-2546.jpg
+            "
+            /> -->
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Recent computer science graduate with a strong foundation in web
+              development technologies such as HTML, CSS, and JavaScript.
+              Seeking an entry-level position where I can use my skills to
+              develop and maintain high-quality websites.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>JAVA</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span><br />B.Tech Sagar Institute Of Research &
+                  Technology Bhopal 2020-2024<br />Current CGPA: 8.40/10
+                </li>
+                <li>
+                  <span>2020</span><br />12th (Higher Secondary) <br />Shanti
+                  Niketan Higher Secondary School Chhipawad percentage:82%
+                </li>
+                <li>
+                  <span>2018</span><br />10th (Matric/Secondary) <br />Shanti
+                  Niketan Higher Secondary School Chhipawad percentage:88.8%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
